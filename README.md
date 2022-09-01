@@ -29,3 +29,22 @@ public class time {
 		  System.out.println("Digite o nome do atacante: " +atacante);
 		  atacante = entrada.nextLine();
 		  
+
+
+import java.util.Scanner;
+
+public class principal {
+
+	public static void main(String[] args) {
+       Scanner entrada = new Scanner(System.in);
+         time x = new time();
+        
+         
+        
+         
+         x.escalacao();
+         x.mostra();
+          
+         
+       
+         entrada.close();
